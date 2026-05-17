@@ -433,7 +433,7 @@ copy:
   # Add the copyright information after copied content
   copyright:
     enable: false
-    limit_count: 150
+    limit_count: 50
 
 # Need to install the hexo-wordcount plugin
 wordcount:
