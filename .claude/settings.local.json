@@ -1,7 +1,12 @@
 {
   "permissions": {
     "allow": [
-      "Bash(npx hexo *)"
+      "Bash(npx hexo *)",
+      "Bash(git fetch *)",
+      "Bash(git ls-tree *)",
+      "Bash(npm ls *)",
+      "Bash(cat .gitignore)",
+      "Bash(cat .gitmodules)"
     ]
   }
 }

@@ -3,12 +3,12 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
-subtitle: ''
-description: ''
+title: N0Ne-Zer0
+subtitle: 记录学习与思考
+description: N0Ne-Zer0 的个人博客
 keywords:
-author: John Doe
-language: en
+author: N0Ne-Zer0
+language: zh-CN
 timezone: ''
 
 # URL
@@ -78,7 +78,7 @@ meta_generator: true
 ## Hexo uses Moment.js to parse and display date
 ## You can customize the date format as defined in
 ## http://momentjs.com/docs/#/displaying/format/
-date_format: YYYY-MM-DD
+date_format: YYYY年MM月DD日
 time_format: HH:mm:ss
 ## updated_option supports 'mtime', 'date', 'empty'
 updated_option: 'mtime'
