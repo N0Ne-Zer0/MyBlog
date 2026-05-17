@@ -55,10 +55,10 @@ social:
 # Image Settings
 # --------------------------------------
 
-favicon: /img/favicon.png
+favicon: /img/favicon.webp
 
 avatar:
-  img: /img/avatar.png
+  img: /img/avatar.webp
   effect: false
 
 # Disable all banner images
@@ -68,7 +68,7 @@ disable_top_img: false
 default_top_img:
 
 # The banner image of index page
-index_img: /img/idx_img.jpg
+index_img: /img/idx_img.webp
 
 # The banner image of archive page
 archive_img:
@@ -95,7 +95,7 @@ footer_img: false
 # Website Background
 # Can set it to color, image URL or an array containing colors and/or image URLs
 # If an array is provided, a random background will be selected from the array on each load
-background: /img/bg.jpg
+background: /img/bg.webp
 
 cover:
   # Disable the cover or not
@@ -104,13 +104,13 @@ cover:
   archives_enable: true
   # When cover is not set, the default cover is displayed
   default_cover:
-    - /img/dc1.jpg
-    - /img/dc2.jpg
-    - /img/dc3.jpg
-    - /img/dc4.jpg
-    - /img/dc5.jpg
-    - /img/dc6.jpg
-    - /img/dc7.jpg
+    - /img/dc1.webp
+    - /img/dc2.webp
+    - /img/dc3.webp
+    - /img/dc4.webp
+    - /img/dc5.webp
+    - /img/dc6.webp
+    - /img/dc7.webp
 
 # Replace Broken Images
 error_img:
@@ -433,7 +433,7 @@ copy:
   # Add the copyright information after copied content
   copyright:
     enable: false
-    limit_count: 50
+    limit_count: 150
 
 # Need to install the hexo-wordcount plugin
 wordcount:
@@ -884,7 +884,7 @@ canvas_nest:
   # The z-index property of the background
   zIndex: -1
   # The number of lines
-  count: 150
+  count: 40
   mobile: false
 
 # Mouse click effects: fireworks
