@@ -1,0 +1,17 @@
+- class_name: 友情链接                          # 友链分组名称
+  class_desc: 我自己                            # 对该分组的描述/说明
+  link_list:                                    # 该分组下的友链列表
+    - name: N0Ne-Zer0                           # 网站名称
+      link: https://n0ne-zer0.github.io/        # 网站地址
+      avatar: /img/avatar.webp                  # 网站头像/图标的 URL
+      descr: 这是我自己的博客网站               # 网站描述
+    - name: N0Ne-Zer0
+      link: https://n0ne-zer0.github.io/
+      avatar: https://github.com/N0Ne-Zer0.png
+      descr: 这也是我自己的博客网站
+- class_desc: 依旧是我自己
+  link_list:
+    - name: N0Ne-Zer0
+      link: https://n0ne-zer0.github.io/
+      avatar: https://github.com/N0Ne-Zer0.png
+      descr: 这还是我自己的博客网站

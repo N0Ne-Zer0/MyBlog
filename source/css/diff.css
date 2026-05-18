@@ -1,8 +1,6 @@
-#page-header:not(.full_page) {
+#page-header.not-home-page,
+#footer {
   background-attachment: fixed !important;
   background-size: cover !important;
   background-position: center !important;
-}
-#page-header:not(.full_page) #nav {
-  background: transparent !important;
 }
