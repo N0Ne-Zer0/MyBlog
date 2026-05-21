@@ -55,7 +55,7 @@ tags: [Markdown, VSCode]
 **加粗字体** ：`**加粗字体**`
 *斜体* ：`*斜体*`
 ~~删除线~~ ：`~~删除线~~`
-==高亮字体== ：`==高亮字体==`
+<mark>高亮字体</mark> ：`<mark>高亮字体</mark>`（html代码）
 <font color="red">红色字体</font> ：`<font color="red">红色字体</font>`（html代码）
 
 # 代码块
