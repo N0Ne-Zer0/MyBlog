@@ -3,7 +3,7 @@ title: 简单配置VSCode(C++)
 date: 2026-05-26 20:42:00
 categories:
     - 教程
-tags: [VSCode, C++]
+tags: [VSCode, C++, MinGW]
 ---
 
 ## 安装工具链
