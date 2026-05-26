@@ -1,5 +1,5 @@
 ---
-title: 在VScode中配置ClaudeCode
+title: 在VSCode中配置ClaudeCode
 date: 2026-05-12 20:29:00
 categories:
     - 教程
@@ -7,12 +7,12 @@ tags: [VSCode, ClaudeCode, AI]
 ---
 
 ### 下载cc插件
-首先再vscode中下载插件 **Claude Code for VS Code** ，完成后在右上角会有图片 ![](在VScode中配置ClaudeCode/image.png) ，这就是打开ClaudeCode对话的按钮，点开后会有登录认证，如果使用的不是Claude模型，那么就要准备绕过认证。
+首先再vscode中下载插件 **Claude Code for VS Code** ，完成后在右上角会有图片 ![](在VSCode中配置ClaudeCode/image.png) ，这就是打开ClaudeCode对话的按钮，点开后会有登录认证，如果使用的不是Claude模型，那么就要准备绕过认证。
 
 ### 绕过cc认证
 打开vscode设置，搜索 **Claude Code: Environment Variables** 点击`Edit in settings.json`。
 添加以下字段并**调整**至如图所示
-![](在VScode中配置ClaudeCode/image-1.png)
+![](在VSCode中配置ClaudeCode/image-1.png)
 ```json
 { "name": "ANTHROPIC_BASE_URL", "value": "https://xxxx" },
 { "name": "ANTHROPIC_AUTH_TOKEN", "value": "xxxx" }
