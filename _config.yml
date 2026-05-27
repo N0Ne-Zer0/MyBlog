@@ -45,6 +45,12 @@ post_asset_folder: true
 relative_link: false
 future: true
 syntax_highlighter: highlight.js
+# Markdown-it renderer config
+markdown:
+  plugins:
+    - name: markdown-it-texmath
+      options:
+        engine: mathjax
 highlight:
   line_number: true
   auto_detect: false

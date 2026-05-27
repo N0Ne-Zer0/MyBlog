@@ -442,7 +442,7 @@ copy:
 
 # Need to install the hexo-wordcount plugin
 wordcount:
-  enable: false
+  enable: true
   # Display the word count of the article in post meta
   post_wordcount: true
   # Display the time to read the article in post meta
@@ -466,7 +466,7 @@ busuanzi:
 math:
   # Choose: mathjax, katex
   # Leave it empty if you don't need math
-  use: mathjax
+  use:
   per_page: true
   hide_scrollbar: false
 
@@ -1072,6 +1072,7 @@ css_prefix: true
 inject:
   head:
     - <link rel="stylesheet" href="/css/diff.css">
+    - <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.28/dist/katex.min.css">
   bottom:
     # - <script src="xxxx"></script>
 
