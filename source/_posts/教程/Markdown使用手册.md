@@ -1,6 +1,7 @@
 ---
 title: Markdown使用手册
 date: 2026-05-12 12:15:00
+updated: 2026-05-12 12:15:00
 categories:
     - 教程
 tags: [Markdown, VSCode]
